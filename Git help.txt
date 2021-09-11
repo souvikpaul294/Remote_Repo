@@ -41,5 +41,5 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 SOUVIK@LAPTOP-AT7UAPDQ MINGW64 /f/Git_Demo (master)
 $ git clone "repository to be cloned url"
 
-Kire achis?
+Kire kmon achis?
 
