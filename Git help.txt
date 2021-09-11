@@ -1,0 +1,42 @@
+SOUVIK@LAPTOP-AT7UAPDQ MINGW64 /f/Git_Demo
+$ git init							//Git local repository initialized(first time only)
+Initialized empty Git repository in F:/Git_Demo/.git/
+
+SOUVIK@LAPTOP-AT7UAPDQ MINGW64 /f/Git_Demo (master)
+$ touch Text.txt						//to create the "Text.txt" file 
+
+SOUVIK@LAPTOP-AT7UAPDQ MINGW64 /f/Git_Demo (master)
+$ git add .							//adding all the files in the git initializer block(temp storage)
+starting fsmonitor-daemon in 'F:/Git_Demo'
+
+SOUVIK@LAPTOP-AT7UAPDQ MINGW64 /f/Git_Demo (master)
+$ git commit -m "Testing"					//to provide the comment on why we are adding the file. -m means master
+[master (root-commit) 313a5fc] Testing
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Text.txt
+
+SOUVIK@LAPTOP-AT7UAPDQ MINGW64 /f/Git_Demo (master)
+$ git branch -M master						//to create the branch named master(first time only)
+
+SOUVIK@LAPTOP-AT7UAPDQ MINGW64 /f/Git_Demo (master)
+$ git remote  add origin https://github.com/souvikpaul294/Testing.git		//connecting the files from the git initializer block(temp storage) to remote repository(first time only)
+
+SOUVIK@LAPTOP-AT7UAPDQ MINGW64 /f/Git_Demo (master)
+$ git status							//to check the current branch position
+On branch master
+nothing to commit, working tree clean
+
+SOUVIK@LAPTOP-AT7UAPDQ MINGW64 /f/Git_Demo (master)
+$ git push -u origin master					//to push the changes at last. origin means the git initializer block. master means teh branch wherewe are pushing our changes
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 210 bytes | 70.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/souvikpaul294/Testing.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+SOUVIK@LAPTOP-AT7UAPDQ MINGW64 /f/Git_Demo (master)
+$ git clone "repository to be cloned url"
+
