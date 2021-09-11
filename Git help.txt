@@ -1,5 +1,6 @@
 SOUVIK@LAPTOP-AT7UAPDQ MINGW64 /f/Git_Demo
-$ git init							//Git local repository initialized(first time only)
+$ git init							//Git local 
+initialized(first time only)
 Initialized empty Git repository in F:/Git_Demo/.git/
 
 SOUVIK@LAPTOP-AT7UAPDQ MINGW64 /f/Git_Demo (master)
@@ -39,4 +40,6 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 SOUVIK@LAPTOP-AT7UAPDQ MINGW64 /f/Git_Demo (master)
 $ git clone "repository to be cloned url"
+
+asdasdasdasdasdasdasd
 
